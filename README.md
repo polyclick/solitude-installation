@@ -1,7 +1,7 @@
 # solitude-installation
 OpenFrameworks source code for the solitude interactive light installation.
 
-![solitude](https://raw.github.com/polyclick/solitude/master/readme-assets/solitude-laptop.jpg)
+![solitude](https://raw.githubusercontent.com/polyclick/solitude-installation/master/readme-assets/solitude-laptop.jpg)
 
 
 # prerequisites
@@ -25,19 +25,20 @@ OpenFrameworks source code for the solitude interactive light installation.
 * Open XCode project
 * Run & Rejoice!
 
+```
 (*) more info at: http://www.instructables.com/id/Arduino-Installing-Standard-Firmata/
 (**) more info at: http://livecontrol.q3f.org/ableton-liveapi/liveosc/
 (***) more info at: https://www.ableton.com/en/help/article/using-virtual-MIDI-buses-live/
-
+```
 
 # setup scheme
 
-![overview scheme](https://raw.github.com/polyclick/solitude/master/readme-assets/overview.png)
+![overview scheme](https://raw.githubusercontent.com/polyclick/solitude-installation/master/readme-assets/overview.png)
 
 
 # fritzing diagram
 
-![fritzing diagram](https://raw.github.com/polyclick/solitude/master/readme-assets/fritzed_bb.png)
+![fritzing diagram](https://raw.githubusercontent.com/polyclick/solitude-installation/master/readme-assets/fritzed_bb.png)
 
 
 # openframeworks output
