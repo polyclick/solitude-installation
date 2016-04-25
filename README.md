@@ -43,4 +43,4 @@ OpenFrameworks source code for the solitude interactive light installation.
 
 # openframeworks output
 
-![OpenFrameworks output](https://raw.github.com/polyclick/solitude/master/readme-assets/openframeworks.png)
+![OpenFrameworks output](https://raw.githubusercontent.com/polyclick/solitude-installation/master/readme-assets/openframeworks.png)
