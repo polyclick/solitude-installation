@@ -38,6 +38,19 @@ OpenFrameworks source code for the solitude interactive light installation.
 
 # fritzing diagram
 
+Fritzing diagram for the Arduino electric circuit. Connect your sensors to digital pins: 2, 4, 7, 8, 12.
+These are the pins that are pre-configured in the OpenFrameworks app to accept digital input.
+If you like to change these; edit the file `ofApp.cpp`, 3rd parameter of the `Sensor` constructor.
+
+```
+  sensors.push_back(Sensor(800.0 + SENSOR_W_OFFSET, 570.0 + SENSOR_H_OFFSET, 2, 1, &effects[0]));
+  sensors.push_back(Sensor(475.0 + SENSOR_W_OFFSET, 500.0 + SENSOR_H_OFFSET, 4, 2, &effects[1]));
+  sensors.push_back(Sensor(600.0 + SENSOR_W_OFFSET, 300.0 + SENSOR_H_OFFSET, 7, 3, &effects[2]));
+  sensors.push_back(Sensor(740.0 + SENSOR_W_OFFSET, 125.0 + SENSOR_H_OFFSET, 8, 4, &effects[3]));
+  sensors.push_back(Sensor(450.0 + SENSOR_W_OFFSET, 40.0 + SENSOR_H_OFFSET, 12, 5, &effects[4]));
+  ```
+
+
 ![fritzing diagram](https://raw.githubusercontent.com/polyclick/solitude-installation/master/readme-assets/fritzed_bb.png)
 
 
